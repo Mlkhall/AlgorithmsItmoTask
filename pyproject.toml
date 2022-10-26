@@ -5,7 +5,7 @@ description = ""
 authors = ["Chumakov Mikhail <mikhail.ch2011@yandex.ru>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = "^3.10"
 jupyter = "^1.0.0"
 numpy = "^1.23.3"
 pandas = "^1.4.4"
@@ -15,6 +15,7 @@ dash = "^2.6.2"
 dash-cytoscape = "^0.3.0"
 requests = "^2.28.1"
 networkx = "^2.8.7"
+pydantic = "^1.10.2"
 
 [tool.poetry.dev-dependencies]
 
